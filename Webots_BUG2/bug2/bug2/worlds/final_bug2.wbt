@@ -1,0 +1,69 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.5830689407492065 -0.5723305865416729 -0.576600650400659 2.102825373035095
+  position -0.05950302814247669 3.0974117138028228 -0.16790430351957508
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.11034 8.88181e-16 -0.103305
+  floorSize 2 2
+}
+WoodenBox {
+  translation 0.451032 1.99839e-15 0.650267
+  rotation 0 1 0 3.14159
+  name "wooden box(2)"
+  size 0.2 0.2 0.2
+}
+Wall {
+  translation -0.0087949 1.28786e-14 0.78762
+  rotation 0 1 0 3.14
+  name "wall(2)"
+  size 0.2 0.1 0.01
+}
+Wall {
+  translation -0.106262 5.32907e-15 0.636588
+  rotation 0 1 0 1.57
+  name "wall(3)"
+  size 0.3 0.1 0.01
+}
+Wall {
+  translation -0.701197 5.32907e-15 0.505945
+  rotation 0 1 0 1.57
+  name "wall(8)"
+  size 0.5 0.1 0.01
+}
+Wall {
+  translation -0.119833 5.32907e-15 0.228326
+  rotation 0 1 0 1.0463996938995748
+  name "wall(4)"
+  size 0.5 0.1 0.08
+}
+Wall {
+  translation -0.254017 5.32907e-15 0.0062673
+  rotation 0 1 0 1.0463996938995748
+  name "wall(7)"
+  size 0.5 0.1 0.01
+}
+Wall {
+  translation -0.596379 5.32907e-15 -0.30186
+  rotation 0 1 0 1.0463996938995748
+  name "wall(5)"
+  size 0.5 0.1 0.01
+}
+E-puck {
+  translation -0.907409 -4.40948e-05 0.468257
+  rotation 0 1 0 -1.57
+  controller "my_controller_bug"
+  groundSensorsSlot [
+    InertialUnit {
+    }
+    GPS {
+    }
+  ]
+}
